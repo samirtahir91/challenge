@@ -1,7 +1,7 @@
 
 # Requirement:
 # Below is a YAML file, which should create a deployment in Kubernetes, with 3 pods of the image webapp:1
-# webapp:1 is a web application lisatening on port 80 that connects to a backend DB
+# webapp:1 is a web application listening on port 80 that connects to a backend DB
 # It's exposed over Ingress as a standard practise
 # There are some errors, and bad practices - review, identify, fix and explain why
 # Treat the contents below as if it were to be applied as 1 single yaml file to your K8s cluster.
